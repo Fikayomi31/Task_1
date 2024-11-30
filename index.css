@@ -1,0 +1,37 @@
+
+:root {
+    /* Primary Colors */
+    --Primary--yellow: #FFCC00;
+    --Beacon--yellow:  #FFFF00;
+
+    /* Neutral color */
+    --Gray: #BEBEB9;
+    --Light--gray: #EBEBEB;
+    --Black: #1E1E1E;
+    --White: #FFFFFF;
+
+    /* Font */
+    --body-fon-family: 'Gill Sans', 'Lucida Sans', sans-serif;
+    --title-font-size: 70pt;
+    --subheading-font-size: 38pt;
+    --body-font-size: 18pt;
+}
+* {
+    font-family: var(--body-fon-family);
+    background: var(--Primary--yellow);
+}
+
+h1 {
+    color: var(--Black);
+    font-size: var(--subheading-font-size);
+    background-color: var(--Black);
+    color: var(--White);
+    padding: 10px;
+    border-radius: 10px;
+}
+    
+p {    
+    font-size: var(--body-font-size);
+    color: var(--Black);
+    
+}
